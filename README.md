@@ -18,7 +18,8 @@ Create a copy.txt file using write mode
 ### Step 4:  
 Copy the content of text1.txt file to copy.txt using write function
 
-## PROGRAM:
+## PROGRAM: 
+```
 Program for copying the contents from one file to another file
 Developed by: KISHORE.B
 RegisterNumber: 212222110020
@@ -27,6 +28,7 @@ with open("text1.txt",'r') as fp:
     msg1=fp.read()
 with open("copytxt",'w') as fp1:
     fp1.write(msg1)
+    ```
 ### OUTPUT:
 
 ![image](https://github.com/KISHORE22001263/copy-file/assets/121484538/aa79b71b-9970-4d0d-99d1-d885a74398e6)
